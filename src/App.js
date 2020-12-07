@@ -13,7 +13,8 @@ function App() {
   return (
     <div className="app">
       <div className="panel">
-        Цена: {data || 'loading...'}
+        <b>Цена:</b>
+        {data || 'loading...'}
       </div>
     </div>
   );
