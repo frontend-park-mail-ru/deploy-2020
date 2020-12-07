@@ -14,6 +14,7 @@ function App() {
     <div className="app">
       <div className="panel">
         <b>Цена:</b>
+        <br />
         {data || 'loading...'}
       </div>
     </div>
